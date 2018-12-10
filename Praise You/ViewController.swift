@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var correctBtn: UIButton!
+    @IBOutlet weak var wrongBtn: UIButton!
+
+    @IBOutlet weak var wrongLbl: UILabel!
+    @IBOutlet weak var correctLbl: UILabel!
+
+    @IBAction func pressCorrect(_ sender: UIButton) {
+    }
+
+    @IBAction func pressWrong(_ sender: UIButton) {
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

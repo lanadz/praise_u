@@ -43,6 +43,9 @@ Unicode: U+2705, UTF-8: E2 9C 85</string>
                                                 <state key="normal" title="Correct">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressCorrect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KUH-2l-Sct"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVf-92-0iD">
                                                 <rect key="frame" x="73" y="124" width="28" height="54"/>
@@ -72,6 +75,9 @@ Unicode: U+274C, UTF-8: E2 9D 8C</string>
                                                 <state key="normal" title="Wrong">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="pressWrong:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJ5-8x-duc"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTm-1i-2TN">
                                                 <rect key="frame" x="73" y="124" width="28" height="54"/>
@@ -215,6 +221,12 @@ Unicode: U+274C, UTF-8: E2 9D 8C</string>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="correctBtn" destination="Jmp-1Q-iv8" id="jfT-eb-ZhU"/>
+                        <outlet property="correctLbl" destination="XVf-92-0iD" id="sKV-uI-3Qv"/>
+                        <outlet property="wrongBtn" destination="4rf-Qc-jPX" id="LT6-Ey-KnN"/>
+                        <outlet property="wrongLbl" destination="XTm-1i-2TN" id="dem-Mt-1GX"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="53.523238380809602" y="26.399999999999999"/>
