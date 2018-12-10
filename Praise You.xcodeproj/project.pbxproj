@@ -12,6 +12,7 @@
 		F3A7840D21BE5F2300675003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A7840B21BE5F2300675003 /* Main.storyboard */; };
 		F3A7840F21BE5F2400675003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A7840E21BE5F2400675003 /* Assets.xcassets */; };
 		F3A7841221BE5F2400675003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A7841021BE5F2400675003 /* LaunchScreen.storyboard */; };
+		F3A7841A21BE875600675003 /* points.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A7841921BE875600675003 /* points.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F3A7840E21BE5F2400675003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A7841121BE5F2400675003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A7841321BE5F2400675003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A7841921BE875600675003 /* points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = points.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F3A7840721BE5F2300675003 /* AppDelegate.swift */,
 				F3A7840921BE5F2300675003 /* ViewController.swift */,
 				F3A7840B21BE5F2300675003 /* Main.storyboard */,
+				F3A7841921BE875600675003 /* points.swift */,
 				F3A7840E21BE5F2400675003 /* Assets.xcassets */,
 				F3A7841021BE5F2400675003 /* LaunchScreen.storyboard */,
 				F3A7841321BE5F2400675003 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				F3A7840A21BE5F2300675003 /* ViewController.swift in Sources */,
 				F3A7840821BE5F2300675003 /* AppDelegate.swift in Sources */,
+				F3A7841A21BE875600675003 /* points.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
